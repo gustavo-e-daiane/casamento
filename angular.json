@@ -9,9 +9,9 @@
       "projectType": "application",
       "architect": {
         "build": {
-          "baseHref": "/casamento",
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "/casamento",
             "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
