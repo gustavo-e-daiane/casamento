@@ -12,7 +12,7 @@
           "baseHref": "/casamento",
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "docs/casamento",
+            "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "tsConfig": "src/tsconfig.app.json",
