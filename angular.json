@@ -4,7 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "pk2-angular": {
-      "root": "",
+      "root": "casamento/",
       "sourceRoot": "src",
       "projectType": "application",
       "architect": {
