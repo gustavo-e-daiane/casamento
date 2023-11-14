@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pk2-angular": {
+    "casamento": {
       "root": "casamento/",
       "sourceRoot": "src",
       "projectType": "application",
@@ -27,6 +27,22 @@
             "scripts": []
           },
           "configurations": {
+            "development": {
+              "optimization": false,
+              "sourceMap": true,
+              "outputHashing": "all",
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": false,
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.development.ts"
+                }
+              ]
+            },
             "production": {
               "optimization": true,
               "outputHashing": "all",
@@ -44,23 +60,27 @@
                 }
               ]
             }
-          }
+          },
+          "defaultConfiguration": "development"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "pk2-angular:build"
+            "browserTarget": "casamento:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "pk2-angular:build:production"
+              "browserTarget": "casamento:build:production"
+            },
+            "development": {
+              "browserTarget": "casamento:build:development"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "pk2-angular:build"
+            "browserTarget": "casamento:build"
           }
         },
         "test": {
@@ -89,7 +109,7 @@
         }
       }
     },
-    "pk2-angular-e2e": {
+    "casamento-e2e": {
       "root": "e2e",
       "sourceRoot": "e2e",
       "projectType": "application",
@@ -98,7 +118,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "pk2-angular:serve"
+            "devServerTarget": "casamento:serve"
           }
         },
         "lint": {
@@ -111,7 +131,7 @@
       }
     }
   },
-  "defaultProject": "pk2-angular",
+  "defaultProject": "casamento",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
