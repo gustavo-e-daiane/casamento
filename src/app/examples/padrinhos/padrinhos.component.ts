@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
-import {  } from "@angular/core";
+import { NgbModal } from "@ng-bootstrap/ng-bootstrap";
+import { NgbdModalContent } from "app/components/modal/modal.component";
 
 @Component({
   selector: "app-padrinhos",
@@ -7,7 +8,13 @@ import {  } from "@angular/core";
   styleUrls: ["./padrinhos.component.scss"],
 })
 export class PadrinhosComponent implements OnInit {
-  constructor() {}
+  name='Rafa'
+  constructor(private modalService: NgbModal) { }
 
-  ngOnInit() {}
+  ngOnInit() {
+  }
+  open() {
+    const modalRef = this.modalService.open(NgbdModalContent);
+        modalRef.componentInstance.name = this.name;
+  }
 }

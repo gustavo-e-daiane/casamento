@@ -12,7 +12,6 @@ import { TypographyComponent } from "./typography/typography.component";
 import { NucleoiconsComponent } from "./nucleoicons/nucleoicons.component";
 import { ComponentsComponent } from "./components.component";
 import { NotificationComponent } from "./notification/notification.component";
-import { NgbdModalComponent } from "./modal/modal.component";
 import { NgbdModalContent } from "./modal/modal.component";
 
 @NgModule({
