@@ -5,23 +5,19 @@ import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
   selector: 'app-modal-content',
   template: `
     <div class="modal-header">
-      <h5 class="modal-title text-center">{{name}}</h5>
+      <h5 class="modal-title text-center">{{padrinho.nome}}</h5>
       <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
-    <div class="modal-body">{{ description }}</div>
+    <div class="modal-body">{{ padrinho.description }}</div>
     <div class="modal-footer">
-      <button type="button" class="btn btn-default btn-link" (click)="activeModal.close('Close click')">Never mind</button>
-      <div class="divider"></div>
-      <button type="button" class="btn btn-danger btn-link" (click)="activeModal.close('Close click')">DELETE</button>
+      <button type="button" class="btn btn-success btn-link" (click)="activeModal.close('Close click')">Fechar</button>
     </div>
   `
 })
 export class NgbdModalContent {
-    @Input() name: string;
-    @Input() description: string;
-
+    @Input() padrinho;
   constructor(public activeModal: NgbActiveModal) {}
 }
 

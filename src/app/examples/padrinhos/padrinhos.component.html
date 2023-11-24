@@ -10,19 +10,10 @@
             <br />
             <div class="section" id="padrinhos">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <app-card-pardinhos [name]="'Rafael M. Mello'" [category]="'Irmão Gêmeo do Noivo'" [description]="'Descrição do card1'"></app-card-pardinhos>
+                    <div class="row" >
+                        <div class="col-sm-6 col-md-4" *ngFor="let padrinho of padrinhos">
+                            <app-card-pardinhos [padrinho]="padrinho"></app-card-pardinhos>
                         </div>
-                        <div class="col-md-4">
-                            <app-card-pardinhos [name]="'Rafael M. Mello'" [category]="'Irmão Gêmeo do Noivo'" [description]="'Descrição do card2'"></app-card-pardinhos>
-                        </div>
-                        <div class="col-md-4">
-                        <app-card-pardinhos [name]="'Rafael M. Mello'" [category]="'Irmão Gêmeo do Noivo'" [description]="'Descrição do card3'"></app-card-pardinhos>
-                    </div>
-
-
-
                     </div>
                 </div>
             </div>

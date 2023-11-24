@@ -7,15 +7,14 @@ import { NgbdModalContent } from '../modal/modal.component';
   templateUrl: './card.component.html'
 })
 export class CardComponent {
-  @Input() name: string;
-  @Input() category: string;
-  @Input() description: string;
+  @Input() padrinho;
 
   constructor(private modalService: NgbModal) {}
-
+  ngOnInit() {
+console.log(this.padrinho);
+  }
   openModal() {
     const modalRef = this.modalService.open(NgbdModalContent);
-    modalRef.componentInstance.name = this.name;
-    modalRef.componentInstance.description = this.description;
+    modalRef.componentInstance.padrinho = this.padrinho;
   }
 }
