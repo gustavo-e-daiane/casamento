@@ -1,0 +1,13 @@
+<div class="section {{classSection}}" id="{{idSection}}">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto text-center">
+                <h2 [ngClass]="containsDark(classSection) ? 'title' : 'tim-title'">{{ title }}</h2>
+
+                <ng-content></ng-content>
+                <img *ngIf="imageSrc" title="{{imageTitle}}" [src]="imageSrc" class="{{classImg}}" [alt]="imageAlt"
+                    [srcset]="imageSrcset">
+            </div>
+        </div>
+    </div>
+</div>

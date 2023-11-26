@@ -3,23 +3,23 @@
         <div class="filter"></div>
         <div class="content-center">
             <div class="container">
-                <div class="title-brand">
+                <div
+                    class="title-brand d-flex flex-column align-content-center align-items-center justify-content-center">
                     <div class="angular-logo">
-                        <img src="assets/img/logo.png" alt="">
+                        <img class="img-fluid pt-5" src="assets/img/logo.png" alt="">
                     </div>
-                    <h1 class="presentation-title d-flex flex-column align-content-center align-items-center justify-content-center">
+                    <h1 class="presentation-title d-flex flex-column">
                         Gustavo
                         <span>&</span>
                         Daiane
                     </h1>
+                    <h6>24/02/2024</h6>
                 </div>
 
                 <h2 class="presentation-subtitle text-center">Bem vindo ao site do nosso casamento</h2>
             </div>
         </div>
         <div class="moving-clouds" style="background-image: url('assets/img/clouds.png'); "></div>
-        <h6 class=" category-absolute ml-auto mr-auto">24/02/2024
-        </h6>
     </div>
     <div class="main">
         <div class="section">
@@ -28,7 +28,8 @@
                     <div class="col-md-8 ml-auto mr-auto text-center">
                         <h2 class="tim-title d-flex flex-nowrap align-items-center justify-content-center">
                             <i class="fa fa-pagelines fa-flip-horizontal"></i> Sejam Bem vindos!
-                            <i class="fa fa-pagelines" aria-hidden="true"></i></h2>
+                            <i class="fa fa-pagelines" aria-hidden="true"></i>
+                        </h2>
                         <p class="description">Seja bem-vindo ao site do nosso casamento! Estamos muito felizes em
                             compartilhar esse momento especial com você. Aqui
                             você vai encontrar todas as informações sobre o grande dia, como local, horário, lista de
@@ -73,7 +74,12 @@
                 </div>
             </div>
         </div>
-        <div class="section section-gray-gradient section-nucleo-icons">
+        <custom-section title="Padrinhos" [classSection]="'section-gray'" [idSection]="'padrinhos'"
+            [imageSrc]="'./assets/img/federico-beccari.jpg'" [imageSrcset]="'./assets/img/federico-beccari.jpg'"
+            [imageAlt]="'padrinhos'" [imageTitle]="'Padrinhos'" [classImg]="'img-fluid'">
+
+        </custom-section>
+        <div class="section section-dark-green section-nucleo-icons">
             <div class="container">
                 <h2 class="title text-center">Cerimônia e Festa</h2>
                 <div class="row d-flex flex-wrap align-content-center align-items-center justify-content-center mb-4">
@@ -102,158 +108,39 @@
 
                 <div class="row">
                     <div class="col-12">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3424.45486907421!2d-55.573455323750636!3d-30.8739338745165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a9fdee19907799%3A0x97a215e39e384e8c!2sLa%20Posta!5e0!3m2!1spt-BR!2sbr!4v1700670683422!5m2!1spt-BR!2sbr"
-                            style="width:100%; height: 20em;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe class="border border-0 w-100" style="height: 22em"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3424.45486907421!2d-55.573455323750636!3d-30.8739338745165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a9fdee19907799%3A0x97a215e39e384e8c!2sLa%20Posta!5e0!3m2!1spt-BR!2sbr!4v1700670683422!5m2!1spt-BR!2sbr"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="sectiom section-gold" id="dicas">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="tim-title"> Dicas que valem Ouro!</h2>
-                        <h3>Trajes</h3>
-                        <p class="description text-justify">
-                            - Queremos que os nossos convidados se sintam elegantes e confortáveis! Por isso, o traje será esporte fino. <br>
-                            - A cerimônia será no gramado, não recomendamos salto fino. <br>
-                            - queremos que você aproveite com muito conforto essa noite que preparamos, por isso Sugerimos às nossas convidadas que
-                              levem chinelos/tênis para curtir a hora da festa!
-                        </p>
-                        <h3>Crian;as</h3>
-                        <p class="description text-justify">
-                            Os pais que precisam trazer seus pequenos, saibam que serão bem vindos e tentaremos deixá-los o máximo confortáveis.
-                            Fiquem à vontade para trazer mantinhas para acomoda-los melhor caso durmam durante a festa e você possa aproveitar.
-                            Pedimos que você preencha também o nome e idade deles na confirmação de presença para que estejamos preparados para
-                            recebê-los.
-
-                        </p>
-                        <h3>Dicas para quem vem de fora</h3>
-                        <p class="description text-justify">
-                            Pará quem vem de fora e precisa de hospedagem iremos deixar algumas sugestões de hotel com diárias até...
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section section-image section-login" style="background-image: url('assets/img/laposta.webp');">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12 ml-auto mr-auto">
-                        <div class="card card-register">
-                            <h3 class="title">Deixe sua dúvida</h3>
-                            <!-- <div class="social-line text-center">
-                                <a href="#pablo" class="btn btn-neutral btn-facebook btn-just-icon">
-                                    <i class="fa fa-facebook-square"></i>
-                                </a>
-                                <a href="#pablo" class="btn btn-neutral btn-google btn-just-icon">
-                                    <i class="fa fa-google-plus"></i>
-                                </a>
-                                <a href="#pablo" class="btn btn-neutral btn-twitter btn-just-icon">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </div> -->
-                            <form class="register-form">
-                                <label>Nome</label>
-                                <div class="input-group form-group-no-border"
-                                    [ngClass]="{'input-group-focus':focus===true}">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text">
-                                            <i class="fa fa-user-o"></i>
-                                        </span>
-                                    </div>
-
-                                    <input type="text" class="form-control" placeholder="Seu Nome" (focus)="focus=true"
-                                        (blur)="focus=false">
-                                </div>
-                                <label>Email</label>
-                                <div class="input-group form-group-no-border"
-                                    [ngClass]="{'input-group-focus':focus===true}">
-                                    <div class="input-group-prepend">
-                                        <span class="input-group-text">
-                                            <i class="nc-icon nc-email-85"></i>
-                                        </span>
-                                    </div>
-
-                                    <input type="text" class="form-control" placeholder="Email" (focus)="focus=true"
-                                        (blur)="focus=false">
-                                </div>
-
-                                <label>Mensagem</label>
-                                <textarea title="mensagem" name="Mensagem" id="message"
-                                    class="form-control"> </textarea>
-                                <!-- <input type="text" class="form-control" placeholder="Password" (focus)="focus1=true"
-                                        (blur)="focus1=false"> -->
-                                <button class="btn btn-danger btn-block btn-round">Enviar</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section section-dark">
-            <div class="container">
-                <div class="row example-page">
-                    <div class="col-md-6 text-center" routerLinkActive="active">
-                        <a [routerLink]="['/landing']">
-                            <img src="./assets/img/examples/landing-page.JPG" alt="Rounded Image"
-                                class="img-rounded img-responsive" style="width: 100%">
-                            <a [routerLink]="['/landing']" class="btn btn-outline-neutral btn-round">Landing Page</a>
-                        </a>
-                    </div>
-
-                    <div class="col-md-6 text-center" routerLinkActive="active">
-                        <a [routerLink]="['/user-profile']">
-                            <img src="./assets/img/examples/profile-page.JPG" alt="Rounded Image"
-                                class="img-rounded img-responsive" style="width: 100%">
-                            <a [routerLink]="['/user-profile']" class="btn btn-outline-neutral btn-round">Profile
-                                Page</a>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section section-dark">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-md-8 ml-auto mr-auto text-center">
-                        <h2 class="title">Do you like what you see?</h2>
-                        <p class="description">Cause if you do, it can be yours for Free. Hit the button below and
-                            download it. Start a new project or give an old Bootstrap 4 project a new look.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 download-area ml-auto mr-auto">
-                        <a href="https://www.creative-tim.com/product/paper-kit-2"
-                            class="btn btn-warning btn-round">Download free HTML</a>
-                        <a href="https://www.creative-tim.com/product/paper-kit-2-angular"
-                            class="btn btn-danger btn-round">Download free Angular</a>
-                    </div>
-                </div>
-                <div class="row justify-content-md-center sharing-area text-center">
-                    <div class="text-center col-md-12 col-lg-8">
-                        <h3>Thank you for supporting us!</h3>
-                    </div>
-                    <div class="text-center col-md-12 col-lg-8">
-                        <a href="#pablo" class="btn btn-twitter-bg twitter-sharrre btn-round" rel="tooltip"
-                            title="Tweet!">
-                            <i class="fa fa-twitter"></i> Twitter
-                        </a>
-                        <a href="#pablo" class="btn btn-google-bg linkedin-sharrre btn-round" rel="tooltip"
-                            title="Share!">
-                            <i class="fa fa-google-plus"></i> Google
-                        </a>
-                        <a href="#pablo" class="btn btn-facebook-bg facebook-sharrre btn-round" rel="tooltip"
-                            title="Share!">
-                            <i class="fa fa-facebook-square"></i> Facebook
-                        </a>
-                        <a href="https://github.com/creativetimofficial/paper-kit"
-                            class="btn btn-github-bg btn-github sharrre btn-round" rel="tooltip" title="Star on Github">
-                            <i class="fa fa-github"></i> Star
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <custom-section title="Dicas que valem Ouro!" [idSection]="'dicas'" [classSection]="'section-gold'">
+            <p class="description text-justify">
+                <span class='font-weight-bold'>Trajes</span><br>
+                - Queremos que os nossos convidados se sintam elegantes e confortáveis! Por isso, o traje será esporte
+                fino.
+                <br>
+                - A cerimônia será no gramado, não recomendamos salto fino. <br>
+                - Queremos que você aproveite com muito conforto essa noite que preparamos, por isso sugerimos às nossas
+                convidadas que levem chinelos/tênis para curtir a hora da festa!
+            </p>
+            <p class="description text-justify">
+                <span class='font-weight-bold'>Crianças</span><br>
+                Os pais que precisam trazer seus pequenxos, saibam que serão bem vindos e tentaremos deixá-los o máximo
+                confortáveis. Fiquem à vontade para trazer mantinhas para acomodá-los melhor caso durmam durante a festa
+                e você
+                possa aproveitar. Pedimos que você preencha também o nome e idade deles na confirmação de presença para
+                que
+                estejamos preparados para recebê-los.
+            </p>
+            <p class="description text-justify">
+                <span class="font-weight-bold">Dicas para quem vem de fora</span><br>
+                Para quem vem de fora e precisa de hospedagem, iremos deixar algumas sugestões de hotel com diárias
+                até...
+            </p>
+        </custom-section>
+        <custom-section title="Lista de Presentes" [classSection]="'section-gray'"></custom-section>
+        <custom-section title="Confirmação de Presença" [classSection]="'section-dark-green'"></custom-section>
     </div>
 </div>

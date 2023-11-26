@@ -13,6 +13,7 @@ import { NucleoiconsComponent } from "./nucleoicons/nucleoicons.component";
 import { ComponentsComponent } from "./components.component";
 import { NotificationComponent } from "./notification/notification.component";
 import { NgbdModalContent } from "./modal/modal.component";
+import { CustomSectionComponent } from "./custom-section/custom-section.component";
 
 @NgModule({
   imports: [
@@ -25,6 +26,7 @@ import { NgbdModalContent } from "./modal/modal.component";
   ],
   declarations: [
     ComponentsComponent,
+    CustomSectionComponent,
     BasicelementsComponent,
     NavigationComponent,
     TypographyComponent,
