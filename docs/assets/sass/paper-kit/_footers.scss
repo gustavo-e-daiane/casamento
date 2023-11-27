@@ -44,8 +44,9 @@
     color: #EB5E28;
 }
 .footer{
-    background-color: $white-color;
+    background-color: $dark-green-color;
     line-height: $line-height;
+    color: $white-color;
 
     &.footer-black{
         h4{
@@ -98,6 +99,7 @@
         }
     }
 
+
     hr{
         border-color: $medium-gray;
         border-width: 1px 0 0;
@@ -114,6 +116,40 @@
     .title{
         color: $default-states-color;
     }
+   .social:hover {
+  transform: scale(1.1);
+}
+.social {
+  transform: scale(0.8);
+  transition: 0.5s;
+  color: white;
+}
+.social-ln:hover {
+  color: #0a66c2;
+}
+.social-em:hover {
+  color: #ffcc2a;
+}
+.social-gh:hover {
+  color: black;
+}
+.social-fb:hover {
+  background: linear-gradient(24deg, #6600ff 0%, #15a3fa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.social-in:hover {
+  background: linear-gradient(
+    to bottom left,
+    #6600ff 0%,
+    #cc0066,
+    #febc00 100%
+  );
+  width: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 }
 
 .footer-black,
