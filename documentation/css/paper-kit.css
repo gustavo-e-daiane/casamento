@@ -4013,81 +4013,81 @@ textarea.form-control {
   line-height: 35px;
 }
 
-.section-nucleo-icons {
+.section-cerimonia-festa {
   padding: 100px 0;
 }
-.section-nucleo-icons .icons-container {
+.section-cerimonia-festa .icons-container {
   position: relative;
   max-width: 450px;
   height: 300px;
   max-height: 300px;
   margin: 0 auto;
 }
-.section-nucleo-icons .icons-container i {
+.section-cerimonia-festa .icons-container i {
   font-size: 34px;
   position: absolute;
   top: 0;
   left: 0;
 }
-.section-nucleo-icons .icons-container i:nth-child(1) {
+.section-cerimonia-festa .icons-container i:nth-child(1) {
   top: 5%;
   left: 7%;
 }
-.section-nucleo-icons .icons-container i:nth-child(2) {
+.section-cerimonia-festa .icons-container i:nth-child(2) {
   top: 28%;
   left: 24%;
 }
-.section-nucleo-icons .icons-container i:nth-child(3) {
+.section-cerimonia-festa .icons-container i:nth-child(3) {
   top: 40%;
 }
-.section-nucleo-icons .icons-container i:nth-child(4) {
+.section-cerimonia-festa .icons-container i:nth-child(4) {
   top: 18%;
   left: 62%;
 }
-.section-nucleo-icons .icons-container i:nth-child(5) {
+.section-cerimonia-festa .icons-container i:nth-child(5) {
   top: 74%;
   left: 3%;
 }
-.section-nucleo-icons .icons-container i:nth-child(6) {
+.section-cerimonia-festa .icons-container i:nth-child(6) {
   top: 36%;
   left: 44%;
   font-size: 65px;
   color: #f5593d;
   padding: 1px;
 }
-.section-nucleo-icons .icons-container i:nth-child(7) {
+.section-cerimonia-festa .icons-container i:nth-child(7) {
   top: 59%;
   left: 26%;
 }
-.section-nucleo-icons .icons-container i:nth-child(8) {
+.section-cerimonia-festa .icons-container i:nth-child(8) {
   top: 60%;
   left: 69%;
 }
-.section-nucleo-icons .icons-container i:nth-child(9) {
+.section-cerimonia-festa .icons-container i:nth-child(9) {
   top: 72%;
   left: 47%;
 }
-.section-nucleo-icons .icons-container i:nth-child(10) {
+.section-cerimonia-festa .icons-container i:nth-child(10) {
   top: 88%;
   left: 27%;
 }
-.section-nucleo-icons .icons-container i:nth-child(11) {
+.section-cerimonia-festa .icons-container i:nth-child(11) {
   top: 31%;
   left: 80%;
 }
-.section-nucleo-icons .icons-container i:nth-child(12) {
+.section-cerimonia-festa .icons-container i:nth-child(12) {
   top: 88%;
   left: 68%;
 }
-.section-nucleo-icons .icons-container i:nth-child(13) {
+.section-cerimonia-festa .icons-container i:nth-child(13) {
   top: 5%;
   left: 81%;
 }
-.section-nucleo-icons .icons-container i:nth-child(14) {
+.section-cerimonia-festa .icons-container i:nth-child(14) {
   top: 58%;
   left: 90%;
 }
-.section-nucleo-icons .icons-container i:nth-child(15) {
+.section-cerimonia-festa .icons-container i:nth-child(15) {
   top: 6%;
   left: 40%;
 }
@@ -5349,7 +5349,7 @@ textarea.form-control {
     margin-left: 7px !important;
   }
 
-  .section-nucleo-icons [class*="col-lg"] {
+  .section-cerimonia-festa [class*="col-lg"] {
     text-align: center !important;
     margin-bottom: 2em;
   }

@@ -156,6 +156,7 @@
     background-attachment: fixed;
     position: relative;
     line-height: 20px;
+    padding: 10px 0;
 }
 
 .footer nav>ul {
@@ -167,8 +168,8 @@
 
 .footer nav>ul>li {
     display: inline-block;
-    padding: 10px 15px;
-    margin: 15px 3px;
+    padding: 0 15px;
+    margin: 0 3px;
     line-height: 20px;
     text-align: center;
 }
@@ -185,9 +186,9 @@
 
 .footer .copyright {
     color: #777777;
-    padding: 10px 15px;
+    padding: 0 15px;
     font-size: 14px;
-    margin: 15px 3px;
+    margin: 0 3px;
     line-height: 20px;
     text-align: center;
 }

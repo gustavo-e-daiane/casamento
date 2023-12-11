@@ -4,3 +4,8 @@ ngb-progressbar {
 .presentation-title > span {
   font-size: 0.3em;
 }
+@media (max-width: 767px) {
+  .section-cerimonia-festa>div> div {
+    flex-direction: column-reverse!important;
+  }
+}
