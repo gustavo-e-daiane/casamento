@@ -9,3 +9,11 @@ ngb-progressbar {
     flex-direction: column-reverse!important;
   }
 }
+.home{
+@media (min-width: 767px) {
+    background-image: url('/casamento/assets/img/fundo2.jpg');
+  }
+  @media (max-width: 767px) {
+    background-image: url('/casamento/assets/img/fundo.jpg');
+  }
+}

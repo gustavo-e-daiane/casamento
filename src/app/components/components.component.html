@@ -1,12 +1,12 @@
 <div class="wrapper">
-    <div class="page-header section-dark" style="background-image: url('assets/img/fundo2.jpg')">
+    <div class="page-header section-dark home" >
         <div class="filter"></div>
         <div class="content-center">
             <div class="container">
                 <div
                     class="title-brand d-flex flex-column align-content-center align-items-center justify-content-center">
                     <div class="angular-logo">
-                        <img class="img-fluid pt-5" src="assets/img/logo.png" alt="">
+                        <img class="img-fluid pt-5" src="assets/img/logo2.png" alt="">
                     </div>
                     <h1 class="presentation-title d-flex flex-column">
                         Gustavo
@@ -30,7 +30,7 @@
                             <i class="fa fa-pagelines fa-flip-horizontal"></i> Sejam Bem vindos!
                             <i class="fa fa-pagelines" aria-hidden="true"></i>
                         </h2>
-                        <p class="description">Seja bem-vindo ao site do nosso casamento! Estamos muito felizes em
+                        <p class="description text-justify">Seja bem-vindo ao site do nosso casamento! Estamos muito felizes em
                             compartilhar esse momento especial com você. Aqui
                             você vai encontrar todas as informações sobre o grande dia, como local, horário, lista de
                             presentes e muito mais.
@@ -77,13 +77,14 @@
         <custom-section title="Padrinhos" [classSection]="'section-gray'" [idSection]="'padrinhos'"
             [imageSrc]="'./assets/img/federico-beccari.jpg'" [imageSrcset]="'./assets/img/federico-beccari.jpg'"
             [imageAlt]="'padrinhos'" [imageTitle]="'Padrinhos'" [classImg]="'img-fluid'">
-        <p class="description">
+        <p class="description text-justify">
             Queridos padrinhos dedicamos este espaço para expressar nossa gratidão e carinho. Vocês são mais do que padrinhos de
             casamento, são pessoas únicas e especiais que têm sido grandes amigos em nossas vidas. Desde o início, vocês estiveram
             ao nosso lado, compartilhando risadas, abraços e conselhos sábios. Vocês nos apoiaram em cada decisão e nos encorajaram
             a seguir em frente. Vocês são aqueles em quem confiamos nossos segredos e nossas maiores alegrias. Nos momentos bons e
-            ruins, sabemos que podemos contar com a presença e o apoio incondicional de vocês. Obrigada por estarem ao nosso lado
-            neste dia especial! Com todo amor e gratidão, Gustavo e Daiane
+            ruins, sabemos que podemos contar com a presença e o apoio incondicional de vocês. Obrigado por estarem ao nosso lado
+            neste dia especial! Com todo amor e gratidão, Gustavo e Daiane <br>
+            <a [routerLink]="['/padrinhos']" ><i class="fa fa-plus-square" aria-hidden="true"></i> detalhes dos Padrinhos</a>
         </p>
         </custom-section>
         <div class="section section-dark-green section-cerimonia-festa">
@@ -91,7 +92,7 @@
                 <h2 class="title text-center">Cerimônia e Festa</h2>
                 <div class="row d-flex flex-wrap align-content-center align-items-center justify-content-center mb-4">
                     <div class="col-lg-6 col-md-6 d-flex">
-                        <p class="description">
+                        <p class="description text-justify">
                             Gostaríamos muito de contar com a presença de todos os nossos convidados no momento em que
                             nossa união será enfim selada!.
                             Será uma linda cerimônia ao ar livre, prometemos que será rápida e seremos extremamente
@@ -148,11 +149,11 @@
                     Confirmação de Presença</a>
             </p>
             <p  class="description text-justify">
-                Caso náo consiga abrir o link ou tenha problemas com o formulário, vocë pode entrar em contato
+                Caso não consiga abrir o link ou tenha problemas com o formulário, você pode entrar em contato
                 diretamente com os noivos
                 através do Whatsapp <br>
                 <a target="_blank" rel="noopener noreferrer"
-                    href="https://api.whatsapp.com/send/?phone=555598422215&text=Gostaria+de+confirmar+a+minha+presen%C3%A7a+no+casamento+de+Gustavo+e+Daiane.+Nomes+confirmados%3A&type=phone_number&app_absent=0">
+                    href="https://api.whatsapp.com/send/?phone=5555984222215&text=Gostaria+de+confirmar+a+minha+presen%C3%A7a+no+casamento+de+Gustavo+e+Daiane.+Nomes+confirmados%3A&type=phone_number&app_absent=0">
                     <i class="fa fa-whatsapp" aria-hidden="true"></i> Daiane</a> <br>
                 <a target="_blank" rel="noopener noreferrer"
                     href="https://api.whatsapp.com/send/?phone=5555984340390&text=Gostaria+de+confirmar+a+minha+presen%C3%A7a+no+casamento+de+Gustavo+e+Daiane.+Nomes+confirmados%3A&type=phone_number&app_absent=0">
@@ -180,8 +181,11 @@
             </p>
             <p class="description text-justify">
                 <span class="font-weight-bold">Dicas para quem vem de fora</span><br>
-                Para quem vem de fora e precisa de hospedagem, iremos deixar algumas sugestões de hotel com diárias
-                até...
+                Para quem vem de fora e precisa de hospedagem, clique no link abaixo e veja algumas sugestões de hotéis e pousadas em Sant'Ana do Livramento:
+                <br>
+                <a class="font-weight-bold" href="https://www.bing.com/travel/hotel-search?q=Hot%C3%A9is+em+santana+do+livramento+rio+grande+do+sul+brasil%2C+sant%27ana+do+livramento&loc=Santana+Do+Livramento+Rio+Grande+Do+Sul+Brasil%2C+Sant%27ana+Do+Livramento&cin=2024-02-24&cout=2024-02-25&guests=2A0C&age=&displaytext=Santana+Do+Livramento+Rio+Grande+Do+Sul+Brasil%2C+Sant%27ana+Do+Livramento&id=&index=0&form=HTSMLI&type=hotel&minprice=undefined&maxprice=undefined&lat=null&lon=null&entrypoint=HTSMLI&sort=HotelPriceAsc" target="_blank" rel="noopener noreferrer">
+                    Hotéis e Pousadas em Livramento
+                </a>
             </p>
         </custom-section>
     </div>
