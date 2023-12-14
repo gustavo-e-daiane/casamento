@@ -44,7 +44,7 @@ No dia do casamento, ela é essencial ao lado da noiva pois desde o início é a
     },
     {
       nome: "Rafa",
-      image: "./assets/img/padrinhos/a.jpg",
+      image: "./assets/img/padrinhos/rafa.jpg",
       categoria: 'Irmáo gêmeo do noivo',
       description: `Irmão`
     },
@@ -68,13 +68,13 @@ No dia do casamento, ela é essencial ao lado da noiva pois desde o início é a
     },
     {
       nome: "Diogo",
-      image: "./assets/img/padrinhos/a.jpg",
+      image: "./assets/img/padrinhos/diogo.jpg",
       categoria: 'vesgo',
       description: `vesgo`
     },
     {
       nome: "Said",
-      image: "./assets/img/padrinhos/a.jpg",
+      image: "./assets/img/padrinhos/said.jpg",
       categoria: 'turco',
       description: `turco`
     },
