@@ -46,7 +46,9 @@ No dia do casamento, ela é essencial ao lado da noiva pois desde o início é a
       nome: "Rafa",
       image: "./assets/img/padrinhos/rafa.jpg",
       categoria: 'Irmáo gêmeo do noivo',
-      description: `Irmão`
+      description: `Literalmente conhece o noivo desde a barriga da mãe, irmão gêmeo do noivo, Rafael sempre esteve presente na vida do noivo, praticamente eram 'os gêmeos' antes de serem Rafael e Gustavo.
+      Acompanhou a relação do casal desde o começo, nunca mediu esforços para ajuda-los, sempre apoiou a relação e se fez presente sempre que foi possível, até mesmo quando o casal se mudou.
+      Rafael é carta marcada, figurinha carimbada ao lado dos noivos, mas de preferência com um terno bem diferente, para não ser confundido com o noivo 😅`
     },
     {
       nome: "Deise e Reginaldo",
