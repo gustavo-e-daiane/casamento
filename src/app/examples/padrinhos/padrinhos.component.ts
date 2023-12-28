@@ -33,8 +33,9 @@ export class PadrinhosComponent implements OnInit {
       image: "./assets/img/padrinhos/vitoria.jpg",
       categoria: 'Irmã da noiva',
       description: `Ela é amiga e parceira incondicional da noiva, juntas compartilharam momentos icônicos que ficaram gravados em suas memórias para sempre. É com quem ela sempre pode contar independente da distância e do tamanho do desafio a enfrentar .
-Acompanhou o relacionamento desde os primeiros passos e sempre ofereceu todo apoio e carinho ao casal.
-No dia do casamento, ela é essencial ao lado da noiva pois desde o início é a testemunha de todo amor que o casal compartilha.` },
+      Acompanhou o relacionamento desde os primeiros passos e sempre ofereceu todo apoio e carinho ao casal.
+      No dia do casamento, ela é essencial ao lado da noiva pois desde o início é a testemunha de todo amor que o casal compartilha.`
+    },
     {
       nome: "Adrian",
       image: "./assets/img/padrinhos/adrian.jpg",
@@ -46,9 +47,12 @@ No dia do casamento, ela é essencial ao lado da noiva pois desde o início é a
       nome: "Rafa",
       image: "./assets/img/padrinhos/rafa.jpg",
       categoria: 'Irmáo gêmeo do noivo',
-      description: `Literalmente conhece o noivo desde a barriga da mãe, irmão gêmeo do noivo, Rafael sempre esteve presente na vida do noivo, praticamente eram 'os gêmeos' antes de serem Rafael e Gustavo.
-      Acompanhou a relação do casal desde o começo, nunca mediu esforços para ajuda-los, sempre apoiou a relação e se fez presente sempre que foi possível, até mesmo quando o casal se mudou.
-      Rafael é carta marcada, figurinha carimbada ao lado dos noivos, mas de preferência com um terno bem diferente, para não ser confundido com o noivo 😅`
+      description: `Literalmente conhece o noivo desde a barriga da mãe, irmão gêmeo do noivo, Rafael sempre esteve presente na vida do
+      noivo, praticamente eram 'os gêmeos' antes de serem Rafael e Gustavo.
+      Acompanhou a relação do casal desde o começo, nunca mediu esforços para ajuda-los, sempre apoiou a relação e se fez presente sempre
+      que foi possível, até mesmo quando o casal se mudou.
+      Rafael é carta marcada, figurinha carimbada ao lado dos noivos, mas de preferência com um terno bem diferente, para não ser
+      confundido com o noivo 😅`
     },
     {
       nome: "Deise e Reginaldo",
@@ -71,8 +75,8 @@ No dia do casamento, ela é essencial ao lado da noiva pois desde o início é a
     {
       nome: "Diogo",
       image: "./assets/img/padrinhos/diogo.jpg",
-      categoria: 'vesgo',
-      description: `vesgo`
+      categoria: 'Amigo dos Noivos',
+      description: `Diogo é amigo do noivo desde os tempos de colégio, amizade que começou com conversas/discussões sobre futebol e piadas sem graça (algo que não mudou ao longo do tempo) o espírito 5° serie resume essa amizade. Diogo é dentre os amigos dos noivos, o que mais os visitou quando se mudaram e na maioria das vezes está lá esperando quando eles vão pra cidade Natal, ou seja, é alguém que dá pra contar a todo momento e claro que não seria diferente no momento mais importante do casal. O que também é de se esperar com o Diogo presente são piadas, zueiras e muita risada.`
     },
     {
       nome: "Said",
@@ -82,7 +86,7 @@ No dia do casamento, ela é essencial ao lado da noiva pois desde o início é a
     },
     {
       nome: "Elis",
-      image: "./assets/img/padrinhos/b.jpg",
+      image: "./assets/img/padrinhos/elis.jpg",
       categoria: 'colega da noiva',
       description: `colega`
     },
