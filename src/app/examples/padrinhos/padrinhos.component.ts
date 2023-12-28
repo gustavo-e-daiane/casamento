@@ -18,10 +18,10 @@ export class PadrinhosComponent implements OnInit {
     {
       nome: "Antonni e Patrícia",
       image: "./assets/img/padrinhos/bolzan-mota.jpg",
-      categoria: "Colegas da noiva",
+      categoria: "Amizade verdadeira",
       description: `Antomni, é o melhor amigo da noiva, se conheceram durante uma fase muito desafiadora na vida de ambos e os obstáculos e
-      adversidades que compartilharam os tornaram bons e fiéis amigos. Logo em seguida surgiu a Patrícia na vida do Antony, menina meiga e
-      sorridente, impossível não se encantar com ela.Agora Os dois estão esperando um pacotinho de amor, que se chamará Aylla Celine. A
+      adversidades que compartilharam os tornaram bons e fiéis amigos. Logo em seguida surgiu a Patrícia na vida do Antonni, menina meiga e
+      sorridente, impossível não se encantar com ela. Agora Os dois estão esperando um pacotinho de amor, que se chamará Aylla Celine. A
       presença deles é fundamental ao lado da noiva nesse dia tão especial.`
     },
     {
@@ -36,7 +36,7 @@ export class PadrinhosComponent implements OnInit {
     {
       nome: "Adrian",
       image: "./assets/img/padrinhos/adrian.jpg",
-      categoria: ' melhor amiga da noiva',
+      categoria: ' Melhor amiga da noiva',
       description: `Uma amizade que começou na escola e já dura mais de 15 anos, Adrian é mais do que uma confidente, ela é aquela pessoa
       que está sempre ao seu lado, ouvindo, apoiando e compartilhando momentos inesquecíveis.
       Nesse dia tão importante, ela é a pessoa perfeita para estar ao lado da noiva, celebrando o amor e a amizade.`
@@ -55,8 +55,8 @@ export class PadrinhosComponent implements OnInit {
     {
       nome: "Deise e Reginaldo",
       image: "./assets/img/padrinhos/regi-deise.jpg",
-      categoria: 'Irmã da noiva e marído',
-      description: `Deise e Reginaldo Irmã e cunhado da noiva Casal perfeito,  juntos há mais de 20 anos, são um verdadeiro exemplo de amor
+      categoria: 'Irmã e cunhado da noiva',
+      description: `Casal perfeito,  juntos há mais de 20 anos, são um verdadeiro exemplo de amor
       e companheirismo no relacionamento. Deise é a irmã mais velha da noiva, mulher forte e extremamente preocupada com os irmãos, é
       considerada uma segunda mãe, mas sem deixar de ser a amiga e confidente. Reginaldo é o cunhado preferido ( ele é o único kkk)
       brincadeiras a parte, o cara é incrível mesmo, é um homem de caráter admirável, sempre disposto a ajudar. Eles são um exemplo de
