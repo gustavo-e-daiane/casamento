@@ -10,7 +10,7 @@ import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
-    <div class="modal-body">{{ padrinho.description }}</div>
+    <div class="modal-body text-justify">{{ padrinho.description }}</div>
     <div class="modal-footer">
       <button type="button" class="btn btn-success btn-link" (click)="activeModal.close('Close click')">Fechar</button>
     </div>
