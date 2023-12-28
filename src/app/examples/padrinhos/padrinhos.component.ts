@@ -58,7 +58,7 @@ export class PadrinhosComponent implements OnInit {
       nome: "Deise e Reginaldo",
       image: "./assets/img/padrinhos/regi-deise.jpg",
       categoria: 'Irmã da noiva e marído',
-      description: `casal`
+      description: `Deise e Reginaldo Irmã e cunhado da noiva Casal perfeito,  juntos há mais de 20 anos, são um verdadeiro exemplo de amor e companheirismo no relacionamento. Deise é a irmã mais velha da noiva, mulher forte e extremamente preocupada com os irmãos, é considerada uma segunda mãe, mas sem deixar de ser a amiga e confidente. Reginaldo é o cunhado preferido ( ele é o único kkk) brincadeiras a parte, o cara é incrível mesmo, é um homem de caráter admirável, sempre disposto a ajudar. Eles são um exemplo de parceria e lealdade, sempre presentes nos momentos mais importantes, no grande dia dos noivos não seria diferente!`
     },
     {
       nome: "Franco e Jessica",
@@ -88,7 +88,7 @@ export class PadrinhosComponent implements OnInit {
       nome: "Elis",
       image: "./assets/img/padrinhos/elis.jpg",
       categoria: 'colega da noiva',
-      description: `colega`
+      description: `É uma mulher incrível, alegre, sempre de bem com a vida,  a noiva e ela se conheceram no trabalho, logo que a noiva mudou-se para POA, durante um período bastante intenso de mudanças na vida profissional. Elis foi a pessoa que apareceu como uma luz na escuridão, com sua alegria e positividade, sempre disposta a tornar melhor os dias das pessoas a sua volta, ofereceu apoio e amizade transformando dias difíceis em dias felizes. No momento mais especial da vida dos noivos ela ocupa um lugar em especial ao lado deles.`
     },
   ];
 
