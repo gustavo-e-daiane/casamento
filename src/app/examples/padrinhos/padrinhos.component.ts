@@ -32,12 +32,12 @@ export class PadrinhosComponent implements OnInit {
       Acompanhou o relacionamento desde os primeiros passos e sempre ofereceu todo apoio e carinho ao casal.
       No dia do casamento, ela é essencial ao lado da noiva pois desde o início é a testemunha de todo amor que o casal compartilha.`,
     },
-    {
-      nome: "Adrian",
-      image: "./assets/img/padrinhos/adrian.jpg",
-      categoria: " Melhor amiga da noiva",
-      description: `Da escola, para a vida.. Melhor amiga da noiva, uma amizade que começou na escola e já dura mais de 15 anos, Adrian é mais do que uma confidente, ela é aquela pessoa que está sempre ao lado da noiva, ouvindo, apoiando e compartilhando momentos inesquecíveis. A sintonia das duas é surreal, com apenas um olhar uma sabe o que a outra quer dizer.A mudança de cidade não separou as duas, pois Adrian também se mudou pra POA, e apesar das responsabilidades da vida adulta elas dão um jeitinho pra ser reunir.  Nesse dia tão importante, ela é a pessoa perfeita para estar ao lado da noiva, celebrando o amor e a amizade.`,
-    },
+    // {
+    //   nome: "Adrian",
+    //   image: "./assets/img/padrinhos/adrian.jpg",
+    //   categoria: " Melhor amiga da noiva",
+    //   description: `Da escola, para a vida.. Melhor amiga da noiva, uma amizade que começou na escola e já dura mais de 15 anos, Adrian é mais do que uma confidente, ela é aquela pessoa que está sempre ao lado da noiva, ouvindo, apoiando e compartilhando momentos inesquecíveis. A sintonia das duas é surreal, com apenas um olhar uma sabe o que a outra quer dizer.A mudança de cidade não separou as duas, pois Adrian também se mudou pra POA, e apesar das responsabilidades da vida adulta elas dão um jeitinho pra ser reunir.  Nesse dia tão importante, ela é a pessoa perfeita para estar ao lado da noiva, celebrando o amor e a amizade.`,
+    // },
     {
       nome: "Rafa",
       image: "./assets/img/padrinhos/rafa.jpg",

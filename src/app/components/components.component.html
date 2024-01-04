@@ -73,33 +73,16 @@
                         </p>
                         <div class="card page-carousel">
                             <ngb-carousel>
-                                <ng-template ngbSlide>
-                                    <img src="./assets/img/soroush-karimi.jpg" alt="Random first slide">
-                                    <div class="carousel-caption">
-                                        <p>Somewhere</p>
-                                    </div>
-                                </ng-template>
-                                <ng-template ngbSlide>
-                                    <img src="./assets/img/federico-beccari.jpg" alt="Random second slide">
-                                    <div class="carousel-caption">
-                                        <p>Somewhere else</p>
-                                    </div>
-                                </ng-template>
-                                <ng-template ngbSlide>
-                                    <img src="./assets/img/joshua-stannard.jpg" alt="Random third slide">
-                                    <div class="carousel-caption">
-                                        <p>Here it is</p>
-                                    </div>
-                                </ng-template>
+                              <ng-template ngbSlide *ngFor="let foto of fotos">
+                                <img src="./assets/img/casal/{{ foto }}" alt="Slide {{ foto }}">
+                              </ng-template>
                             </ngb-carousel>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <custom-section title="Padrinhos" [classSection]="'section-gray'" [idSection]="'padrinhos'"
-            [imageSrc]="'./assets/img/federico-beccari.jpg'" [imageSrcset]="'./assets/img/federico-beccari.jpg'"
-            [imageAlt]="'padrinhos'" [imageTitle]="'Padrinhos'" [classImg]="'img-fluid'">
+        <custom-section title="Padrinhos" [classSection]="'section-gray'" [idSection]="'padrinhos'">
             <p class="description text-justify">
                 Queridos padrinhos dedicamos este espaço para expressar nossa gratidão e carinho. Vocês são mais do que
                 padrinhos de
@@ -112,9 +95,10 @@
                 ruins, sabemos que podemos contar com a presença e o apoio incondicional de vocês. Obrigado por estarem
                 ao nosso lado
                 neste dia especial! Com todo amor e gratidão, Gustavo e Daiane <br>
-                <a [routerLink]="['/padrinhos']"><i class="fa fa-plus-square" aria-hidden="true"></i> detalhes dos
+                <a [routerLink]="['/padrinhos']" class="text-dark font-weight-bold"><i class="fa fa-plus-square " aria-hidden="true"></i> detalhes dos
                     Padrinhos</a>
             </p>
+            <!-- <app-image-gallery></app-image-gallery> -->
         </custom-section>
         <div class="section section-dark-green section-cerimonia-festa">
             <div class="container">
@@ -126,7 +110,7 @@
                             nossa união será enfim selada! <br>
                             Será uma linda cerimônia ao ar livre, prometemos que será rápida e seremos extremamente
                             pontuais. <br>
-                            Contamos com todos vocês! <br>
+                            Contamos com todos vocês! <br><br>
                             Logo em seguida, nos reuniremos no salão de eventos do próprio local em que a cerimônia será
                             realizada. <br>
                             Será uma festa incrível, regada a bons drinks, comida boa, alegria e muita diversão.
@@ -139,7 +123,7 @@
                         </p>
                     </div>
                     <div class="col-lg-6 col-md-6 d-flex">
-                        <img src="./assets/img/laposta.webp" alt="Imagem do local da cerimônia" class="img-rounded">
+                        <img src="./assets/img/laposta.jpg" alt="Imagem do local da cerimônia" class="img-rounded">
                     </div>
                 </div>
 
@@ -159,19 +143,19 @@
                 que tem desde itens de cozinha, cotas românticas e até presentes divertidos que serão convertidos em
                 dinheiro.
                 <br>
-                <a href="https://noivos.casar.com/gustavo-e-daiane#/presentes" target="_blank"
+                <a class="text-dark font-weight-bold" href="https://noivos.casar.com/gustavo-e-daiane#/presentes" target="_blank"
                     rel="noopener noreferrer">
                     <i class="fa fa-diamond" aria-hidden="true"></i>
                     lista de Presentes</a>
                 <br>
-                Caso você prefira poderá fazer um pix através da chave
-                xxxxxxxxxx
+                Caso você prefira poderá fazer um pix através da chave <br>
+                43b86bbd-6542-4b77-9e43-a2b71ae47f76 <button id="copyButton" class="btn btn-outline-default btn-sm">copiar a chave</button>
             </p>
         </custom-section>
         <custom-section title="Confirmação de Presença" [classSection]="'section-dark-green'">
             <p class="description text-justify">
                 Você está convidado para o nosso casamento! Mas não se esqueça de confirmar sua presença no site dos
-                noivos até o dia 13 de Fevereiro de 2024. Assim, você garante seu lugar na festa e ainda ajuda os noivos
+                noivos até o dia 05 de Fevereiro de 2024. Assim, você garante seu lugar na festa e ainda ajuda os noivos
                 a planejarem tudo com mais tranquilidade. Para confirmar, basta clicar no link abaixo, preencher o
                 formulário com seus dados e clicar em enviar. Depois, é só se preparar para curtir esse dia especial com
                 muita alegria e animação! <br>
@@ -197,14 +181,16 @@
                 - Queremos que os nossos convidados se sintam elegantes e confortáveis! Por isso, o traje será esporte
                 fino.
                 <br>
+                - As madrinhas usarão vestido na cor verde esmeralda, portanto, seria bom evitar essa cor.
+                <br>
                 - A cerimônia será no gramado, não recomendamos salto fino. <br>
                 - Queremos que você aproveite com muito conforto essa noite que preparamos, por isso sugerimos às nossas
                 convidadas que levem chinelos/tênis para curtir a hora da festa!
             </p>
             <p class="description text-justify">
                 <span class='font-weight-bold'>Crianças</span><br>
-                Os pais que precisam trazer seus pequenxos, saibam que serão bem vindos e tentaremos deixá-los o máximo
-                confortáveis. Fiquem à vontade para trazer mantinhas para acomodá-los melhor caso durmam durante a festa
+                Os pais que precisam trazer seus pequenos, saibam que serão bem vindos e tentaremos deixá-los o mais
+                confortáveis possível. Fiquem à vontade para trazer mantinhas para acomodá-los melhor caso durmam durante a festa
                 e você
                 possa aproveitar. Pedimos que você preencha também o nome e idade deles na confirmação de presença para
                 que

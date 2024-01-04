@@ -14,6 +14,7 @@ import { ComponentsComponent } from "./components.component";
 import { NotificationComponent } from "./notification/notification.component";
 import { NgbdModalContent } from "./modal/modal.component";
 import { CustomSectionComponent } from "./custom-section/custom-section.component";
+import { ImageGalleryComponent } from "app/shared/ImageGallery/ImageGallery.component";
 
 @NgModule({
   imports: [
@@ -32,7 +33,9 @@ import { CustomSectionComponent } from "./custom-section/custom-section.componen
     TypographyComponent,
     NucleoiconsComponent,
     NotificationComponent,
+    ImageGalleryComponent,
   ],
+  bootstrap: [ImageGalleryComponent],
   entryComponents: [NgbdModalContent],
   exports: [ComponentsComponent],
 })
