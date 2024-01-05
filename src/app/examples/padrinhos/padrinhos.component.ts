@@ -45,7 +45,7 @@ export class PadrinhosComponent implements OnInit {
     },
     // Rafa
     {
-      nome: "Rafa",
+      nome: "Rafael",
       image: "./assets/img/padrinhos/rafa.jpg",
       categoria: "Irmáo gêmeo do noivo",
       description: `Literalmente conhece o noivo desde a barriga da mãe, irmão gêmeo do noivo, Rafael sempre esteve presente na vida do
