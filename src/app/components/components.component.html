@@ -49,7 +49,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-8 mr-auto ml-auto">
-                        <p class="description text-justfy">
+                        <p class="description text-justify">
                             Esse casal é o exemplo de que mesmo em momentos difíceis, coisas boas podem acontecer.
                             Num período conturbado e difícil,
                             após uma frustrante prova de concurso, por um acaso, eles começaram a conversar, e essas
@@ -71,10 +71,10 @@
                             história que está sendo escrita e
                             que continuará a ser lida, pois nunca terá um fim enquanto um estiver com o outro.
                         </p>
-                        <div class="card page-carousel">
+                        <div class="card page-carousel mt-2">
                             <ngb-carousel>
                               <ng-template ngbSlide *ngFor="let foto of fotos">
-                                <img src="./assets/img/casal/{{ foto }}" alt="Slide {{ foto }}">
+                                <img class="img-fluid" src="./assets/img/casal/{{ foto }}" alt="Slide {{ foto }}">
                               </ng-template>
                             </ngb-carousel>
                         </div>
@@ -148,8 +148,9 @@
                     <i class="fa fa-diamond" aria-hidden="true"></i>
                     lista de Presentes</a>
                 <br>
-                Caso você prefira poderá fazer um pix através da chave <br>
-                43b86bbd-6542-4b77-9e43-a2b71ae47f76 <button id="copyButton" class="btn btn-outline-default btn-sm">copiar a chave</button>
+                Caso você prefira poderá fazer um pix através da chave: <br>
+                <b>43b86bbd-6542-4b77-9e43-a2b71ae47f76</b> <br>
+                <button type="button" id="copyButton" class="btn btn-outline-default btn-sm">copiar a chave</button>
             </p>
         </custom-section>
         <custom-section title="Confirmação de Presença" [classSection]="'section-dark-green'">

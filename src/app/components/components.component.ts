@@ -48,14 +48,14 @@ export class ComponentsComponent implements OnInit {
     navigator.clipboard.writeText(stringToCopy)
       .then(() => {
         const originalText: string = copyButton.textContent!;
-        copyButton.textContent = "Copied!";
+        copyButton.textContent = "Copiado!";
         // Revert the button text back to original after some time
         setTimeout(() => {
           copyButton.textContent = originalText;
         }, 2000); // 2 seconds delay
       })
       .catch((error: Error) => {
-        console.error("Failed to copy string:", error);
+        console.error("Falha ao copiar:", error);
       });
   });
   }
